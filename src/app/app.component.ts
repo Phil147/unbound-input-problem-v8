@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'unbound-input-v8';
+  title = 'unbound-input-v9';
+  name = 'Angular';
 }

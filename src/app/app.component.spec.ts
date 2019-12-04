@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'unbound-input-v8'`, () => {
+  it(`should have as title 'unbound-input-v9'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('unbound-input-v8');
+    expect(app.title).toEqual('unbound-input-v9');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('unbound-input-v8 app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('unbound-input-v9 app is running!');
   });
 });
